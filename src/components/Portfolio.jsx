@@ -11,11 +11,6 @@ const Portfolio = () => {
     {
       id: 1,
       src: arrayDestruct,
-    //   link: (
-    //     function links() {
-    //         <a href="https://www.google.com/">Demo</a>
-    //     }
-    //   )
     },
     {
       id: 2,
@@ -42,7 +37,7 @@ const Portfolio = () => {
 
   return (
     <div
-      name=" portfolio"
+      name="portfolio"
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
